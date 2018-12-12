@@ -34,7 +34,7 @@ class Hero extends GameObject{
 			var obj=objectManager.objectArray[i];
 			if(obj.id=="BLOCK"){
 				/*------------------------------------------------------
-				블럭을 대상으로 4방향의 센서들과 대조해본다
+				블럭 하나를 대상으로 4방향의 센서들과 대조해본다
 				------------------------------------------------------*/
 				for(var a=0;a<this.sensorArray.length;a++){
 					var s=this.sensorArray[a];
